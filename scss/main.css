@@ -169,7 +169,6 @@ body, html {
 .local {
   display: flex;
   justify-content: center;
-  padding: 1.25rem 1rem;
   background-color: rgb(243, 243, 243);
   font-size: 1.2rem;
   position: relative;
@@ -193,31 +192,7 @@ body, html {
   font-weight: 300;
   margin: 1.5rem 0;
 }
-.hero__btn {
-  border: 0;
-  padding: 0.75rem 1.5rem;
-  font-weight: 500;
-  font-size: 1.1rem;
-  border-radius: 100px;
-  color: white;
-  background-color: rgb(104, 104, 104);
-  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9) 0%, rgba(255, 121, 218, 0.9) 100%);
-  cursor: pointer;
-  transition-duration: 0.25s;
-  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
-}
-.hero__btn:hover {
-  background-color: white;
-  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
-}
-.hero__btn a {
-  text-decoration: none;
-  color: inherit;
-}
 
-.tuto {
-  padding: 2rem 1rem;
-}
 .tuto__title {
   margin-top: 0;
 }
@@ -278,7 +253,6 @@ body, html {
 
 .restaurants {
   background-color: #f6f6f6;
-  padding: 2rem 1rem;
 }
 
 .cards {
@@ -546,43 +520,43 @@ body, html {
 }
 
 .delay-1 {
-  -webkit-animation-delay: 0.1s;
-          animation-delay: 0.1s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
 
 .delay-2 {
-  -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
 
 .delay-3 {
-  -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
 
 .delay-4 {
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
 
 .delay-5 {
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
 
 .delay-6 {
-  -webkit-animation-delay: 0.6s;
-          animation-delay: 0.6s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
 
 .delay-7 {
-  -webkit-animation-delay: 0.7s;
-          animation-delay: 0.7s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
 
 .delay-8 {
-  -webkit-animation-delay: 0.8s;
-          animation-delay: 0.8s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
 
 .wrapBtn {
@@ -590,27 +564,4 @@ body, html {
   text-decoration: none;
   justify-content: center;
   padding: 3rem 0;
-}
-
-.commandBtn {
-  border: 0;
-  padding: 0.75rem 1.5rem;
-  font-weight: 500;
-  font-size: 1.1rem;
-  border-radius: 100px;
-  color: white;
-  background-color: rgb(104, 104, 104);
-  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9) 0%, rgba(255, 121, 218, 0.9) 100%);
-  cursor: pointer;
-  transition-duration: 0.25s;
-  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
-  cursor: pointer;
-}
-.commandBtn:hover {
-  background-color: white;
-  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
-}
-.commandBtn a {
-  text-decoration: none;
-  color: inherit;
 }/*# sourceMappingURL=main.css.map */
