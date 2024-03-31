@@ -30,6 +30,13 @@ body, html {
   flex-direction: column;
   padding: 1rem;
 }
+@media (min-width: 1024px) {
+  .footer .container {
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 7px;
+  }
+}
 .footer__logo {
   color: white;
   font-family: "Shrikhand", "cursive";
@@ -37,19 +44,26 @@ body, html {
   font-size: 1.2rem;
   margin-bottom: 1rem;
 }
+@media (min-width: 1024px) {
+  .footer__logo {
+    width: 137px;
+    margin: 0;
+    margin-left: 6rem;
+  }
+}
 .footer__list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-.footer__listElt {
-  margin: 0.5rem 0;
-}
-.footer__listElt:first-child {
-  margin-top: 0;
-}
-.footer__listElt:last-child {
-  margin-bottom: 0;
+@media (min-width: 1024px) {
+  .footer__list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 114px;
+    gap: 16px;
+  }
 }
 .footer__link {
   color: white;
@@ -147,6 +161,11 @@ body, html {
 .tuto__title {
   margin-top: 0;
 }
+@media (min-width: 1024px) {
+  .tuto__title {
+    padding-left: 4rem;
+  }
+}
 .tuto__steps {
   margin: 0;
   padding: 0;
@@ -156,6 +175,8 @@ body, html {
 @media (min-width: 1024px) {
   .tuto__steps {
     display: flex;
+    max-width: 85%;
+    padding-left: 4rem;
   }
 }
 .tuto__step {
@@ -210,21 +231,22 @@ body, html {
 }
 @media (min-width: 1024px) {
   .restaurants {
-    padding-left: 10em;
+    display: flex;
+    justify-content: center;
   }
 }
 
 .cards {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  -moz-column-gap: 2rem;
-       column-gap: 2rem;
-  row-gap: 2rem;
+  -moz-column-gap: 4rem;
+       column-gap: 4rem;
+  row-gap: 4rem;
 }
 @media (min-width: 1024px) {
   .cards {
     grid-template-columns: repeat(2, 1fr);
-    max-width: 80%;
+    width: 65rem;
   }
 }
 
